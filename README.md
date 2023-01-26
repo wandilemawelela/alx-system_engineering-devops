@@ -1,1 +1,1 @@
-This repository contains programs written for the system engineering and DevOps track at ALX Africa. In these projects, I worked with Bash and practiced writing Bash scripts to automate tasks.
+This repository contains systems engineering programming tasks completed during my Software Engineering programme at ALX - Holberton. You are tasked to come up with solutions for the tasks yourself to meet the learning objectives. You will not be able to meet the objectives by copying and pasting someone else’s work.
