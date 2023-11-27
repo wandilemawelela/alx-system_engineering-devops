@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# This script writes a Bash script that gives you
+# information about the school file.
 
 file_path="school"
 
