@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Creates an RSA key pair
 
-ssh-keygen -t rsa -b "4096" -f "~/.ssh/school" -N "betty"
-
+ssh-keygen -b 4096 -f school -t rsa -N betty
 echo "RSA key pair created successfully. Private key: ~/.ssh/school"
