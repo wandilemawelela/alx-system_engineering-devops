@@ -1,15 +1,4 @@
 #!/usr/bin/env bash
-# Uses ssh to connect to my server using the
-# private key ~/.ssh/school with the user ubuntu.
+# Connects to server 34.138.32.248 with key in ~/.ssh/school
 
-# Set the server IP address or hostname
-server="100.26.221.139"
-
-# Set the private key file path
-private_key="~/.ssh/school"
-
-# Set the remote username
-user="ubuntu"
-
-# Use ssh with single-character flags to connect to the server
-ssh -i "$private_key" "$user@$server"
+ssh -i ~/.ssh/school ubuntu@100.26.221.139
