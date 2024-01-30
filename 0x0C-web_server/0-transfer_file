@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Transfer a file from our client to a server
 
 if [ $# -lt 3 ];
