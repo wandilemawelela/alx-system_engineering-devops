@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Configures Nginx server so that /redirect_me redirects to another page.
 
 apt-get update
