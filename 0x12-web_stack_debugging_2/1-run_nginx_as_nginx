@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Container fix
 # Stop nginx service if it's already running
 service nginx stop
