@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 # Container fix
-# Stop nginx service if it's already running
-service nginx stop
-
-# Update nginx configuration to run as nginx user
-sed -i 's/^user .*$/user nginx;/g' /etc/nginx/nginx.conf
-
-# Update nginx configuration to listen on all active IPs on port 8080
-sed -i 's/^listen 80;/listen 8080;/g' /etc/nginx/sites-available/default
-
-# Restart nginx service
-service nginx start
+pkill -f apache2
+chmod 644 /etc/nginx/nginx.conf
+sed -i "1i user nginx;" /etc/nginx/nginx.conf
+sed -i 's/80/8080/' /etc/nginx/sites-enabled/default
+sudo -u nginx service nginx restart
