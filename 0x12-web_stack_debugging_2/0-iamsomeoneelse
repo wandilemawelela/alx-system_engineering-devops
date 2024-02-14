@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Check if an argument is provided
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <username>"
+    exit 1
+fi
+
+# Store the username passed as an argument
+username=$1
+
+# Run 'whoami' command under the specified user
+sudo -u "$username" whoami
