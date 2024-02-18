@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Container fix
 pkill -f apache2
 chmod 644 /etc/nginx/nginx.conf
