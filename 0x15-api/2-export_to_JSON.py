@@ -3,8 +3,8 @@
 about his/her TODO list progress and exports it to a JSON file.
 """
 
-import requests
 import json
+import requests
 
 
 def get_employee_todo_progress(employee_id):
