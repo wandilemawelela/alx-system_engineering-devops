@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Number of subscribers module.
+"""
 
 import requests
 
